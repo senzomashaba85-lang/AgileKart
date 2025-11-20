@@ -1,0 +1,116 @@
+{
+  "Products": [
+    {
+      "Id": 1,
+      "Name": "Wireless Audio System Multiroom 360 degree Full base audio sound",
+      "Category": "Speakers",
+      "Price": "685.00",
+      "ProductsImage": "/public/Images/Product-01.png"
+    },
+    {
+      "Id": 2,
+      "Name": "Bluetooth Noise Cancelling Headphones",
+      "Category": "Headphones",
+      "Price": "299.00",
+      "ProductsImage": "/public/Images/Product-02.png"
+    },
+    {
+      "Id": 3,
+      "Name": "Smartwatch Series 5 with Health Tracking",
+      "Category": "Wearables",
+      "Price": "199.00",
+      "ProductsImage": "/public/Images/Product-03.png"
+    },
+    {
+      "Id": 4,
+      "Name": "4K Ultra HD Smart TV 55 inch",
+      "Category": "Television",
+      "Price": "899.00",
+      "ProductsImage": "/public/Images/Product-04.png"
+    },
+    {
+      "Id": 5,
+      "Name": "Gaming Laptop RTX 4060 16GB RAM",
+      "Category": "Computers",
+      "Price": "1499.00",
+      "ProductsImage": "/public/Images/Product-05.png"
+    },
+    {
+      "Id": 6,
+      "Name": "Mechanical RGB Gaming Keyboard",
+      "Category": "Accessories",
+      "Price": "129.00",
+      "ProductsImage": "/public/Images/Product-06.png"
+    },
+    {
+      "Id": 7,
+      "Name": "Wireless Ergonomic Mouse",
+      "Category": "Accessories",
+      "Price": "59.00",
+      "ProductsImage": "/public/Images/Product-07.png"
+    },
+    {
+      "Id": 8,
+      "Name": "Portable Bluetooth Speaker Waterproof",
+      "Category": "Speakers",
+      "Price": "89.00",
+      "ProductsImage": "/public/Images/Product-08.png"
+    },
+    {
+      "Id": 9,
+      "Name": "Smart Home Voice Assistant",
+      "Category": "Smart Devices",
+      "Price": "129.00",
+      "ProductsImage": "/public/Images/Product-09.png"
+    },
+    {
+      "Id": 10,
+      "Name": "DSLR Camera 24MP with Lens Kit",
+      "Category": "Cameras",
+      "Price": "799.00",
+      "ProductsImage": "/public/Images/Product-10.png"
+    },
+    {
+      "Id": 11,
+      "Name": "Fitness Tracker Waterproof Band",
+      "Category": "Wearables",
+      "Price": "79.00",
+      "ProductsImage": "/public/Images/Product-11.png"
+    },
+    {
+      "Id": 12,
+      "Name": "Smartphone Pro Max 256GB",
+      "Category": "Mobile Phones",
+      "Price": "1099.00",
+      "ProductsImage": "/public/Images/Product-12.png"
+    },
+    {
+      "Id": 13,
+      "Name": "Wireless Charging Pad Fast Charge",
+      "Category": "Accessories",
+      "Price": "39.00",
+      "ProductsImage": "/public/Images/Product-13.png"
+    },
+    {
+      "Id": 14,
+      "Name": "Noise Cancelling Earbuds True Wireless",
+      "Category": "Headphones",
+      "Price": "149.00",
+      "ProductsImage": "/public/Images/Product-14.png"
+    },
+    {
+      "Id": 15,
+      "Name": "Smart LED Light Bulb RGB WiFi",
+      "Category": "Smart Devices",
+      "Price": "29.00",
+      "ProductsImage": "/public/Images/Product-15.png"
+    },
+    {
+      "Id": 16,
+      "Name": "Portable Power Bank 20000mAh",
+      "Category": "Accessories",
+      "Price": "49.00",
+      "ProductsImage": "/public/Images/Product-16.png"
+    }
+  ]
+}

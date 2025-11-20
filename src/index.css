@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Text:wght@200..700&family=Bricolage+Grotesk:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: rgba(0, 104, 200, 1);
+    --secondary-color: rgba(221, 40, 49, 1);
+    --yellow: rgba(250, 204, 21, 1);
+    --black: #000;
+    --white: #fff;
+
+    --transition-regular: 0.3s;
+    --transition-slow: 0.6s;
+
+    --bricolage-font: "Bricolage Grotesk", sans-serif;
+    --plus-jakarta-font: "Plus Jakarta Sans", sans-serif;
+}
+
+/* Hero */
+.bg-element {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.bg-element::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 200px;
+    background-color: var(--yellow);
+    filter: blur(250px);
+}
+
+.bg-element::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    height: 200px;
+    background-color: var(--yellow);
+    filter: blur(250px);
+    z-index: -1;
+}
+
+.hero-bg {
+    height: 100vh;
+    width: 100%;
+     background-image: url('/hero-banner.jpg');
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+     overflow: hidden;
+}
+
+.hero-image img {
+    width: 75%;
+    height: 100%;
+}
+
+.hero-content h1 {
+    opacity: 0;
+    animation: Anim-fade-bottom var(--transition-slow) 0.6s forwards linear;
+}
+
+.hero-content h5 {
+    opacity: 0;
+    animation: Anim-fade-bottom var(--transition-slow) 0.9s forwards linear;
+}
+
+.hero-content span {
+    opacity: 0;
+    animation: Anim-fade-bottom var(--transition-slow) 1.1s forwards linear;
+}
+
+.hero-content button {
+    opacity: 0;
+    animation: Anim-fade-bottom var(--transition-slow) 1.1s forwards linear;
+}
+
+.hero-image {
+    opacity: 0;
+    animation: Anim-fade-bottom var(--transition-slow) 1.5s forwards linear;
+}
+
+@keyframes Anim-fade-bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/* Hero MQ Section*/
+
+@media (max-width: 1399px) {
+    .hero-content h1 {
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 1199px) {
+    .middle-nav {
+        flex-wrap: wrap;
+    }
+
+    .get-help {
+        width: 100%;
+        justify-content: start;
+    }
+
+    .nav-menu {
+        width: 60%;
+    }
+}
+
+@media (max-width: 991px) {
+    .middle-nav {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 100%;
+    }
+
+    .product-search {
+        width: 100%;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+}
+
+.hide {
+    display: none !important;
+}
+
+@media (max-width: 767px) {
+    .hero-image {
+        display: none !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .hero-image {
+        display: none !important;
+    }
+
+    .product-search select {
+        width: 50%;
+    }
+
+    .nav-menu li a {
+        font-size: 1rem;
+    }
+
+    .top-nav {
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        text-align: start;
+    }
+
+    .top-nav ul {
+        width: 100%;
+        justify-content: start;
+        margin-top: 20px;
+    }
+}
+/* Banner */
+
+@media (max-width:575px) {
+   .banner-1{
+    background-size: 800%;
+    background-repeat: no-repeat;
+   } 
+}
